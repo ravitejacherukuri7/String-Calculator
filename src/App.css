@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+}
+
+#titleCol h1 {
+  margin-left: 35%;
+  font-size: 60px;
+}
+
+#infoRow {
+  padding-top: 30vh;
+}
+
+#instructionsCol :not(:last-child){
+  margin-bottom: .2rem;
+}
+
+@media screen and (max-width: 766px) {
+  #instructionsCol {
+    margin-left: 2rem;
+  }
+
+  #titleCol h1 {
+    margin-left: 2rem;
+  }
+
+  #titleCol:last-child {
+    background-color:red;
+  }
+}
